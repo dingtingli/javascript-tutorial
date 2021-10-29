@@ -169,7 +169,7 @@ JavaScript 的最新引擎 Chrome V8 所采用的方式和 Java 语言类似，�
 
 我们可以详细看这两个阶段：编译阶段和执行阶段。
 
-对比 Java 等语言，编译-执行流程做的事情非常相似，只是对于同一段代码而言，Java 只需要运行一次编译-执行流程，而不是根据需要不断地重复这个流程。
+对比 Java 等语言，双方编译-执行流程做的事情非常相似，只是对于同一段代码而言，Java 只需要运行一次编译-执行流程，而不是根据需要不断地重复这个流程。
 
 <figure>
     <img src="./illustrations/Compile/png06.PNG" width="650" alt="C Compile" align="center">
