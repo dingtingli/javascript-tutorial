@@ -1,6 +1,4 @@
-# 为什么说JavaScript更像一门编译型语言？
-
-# 翻译：最完美的结合：即时编译器（ Just-In-Time Compilers ） 
+# 为什么说 JavaScript 更像一门编译型语言
 
 作者：**dingtingli**
 
