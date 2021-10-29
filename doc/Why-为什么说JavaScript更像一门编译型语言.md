@@ -259,7 +259,7 @@ JavaScript 的最新引擎 Chrome V8 所采用的方式和 Java 语言类似，�
 
 [11] [JavaScript engine fundamentals: Shapes and Inline Caches](https://mathiasbynens.be/notes/shapes-ics)
 
-[12] [编译器和解释器(Compiler and Interpreter)](https://juejin.cn/post/6844903853805027335)
+[12] [编译器和解释器（Compiler and Interpreter）](https://juejin.cn/post/6844903853805027335)
 
 [13] [Let’s Build A Simple Interpreter. Part 1.](https://ruslanspivak.com/lsbasi-part1/)
 
