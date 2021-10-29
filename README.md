@@ -1,2 +1,2 @@
 # javascript-tutorial
-JavaScirpt 自学文章总结
+JavaScript 自学文章总结
