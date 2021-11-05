@@ -50,7 +50,7 @@ FUNC at 12
 ```js
 function fun(a, b) {
     var c = 3;
-    return a + b + c;
+    return a + b - c;
 }
 
 //fun(1, 2);
@@ -64,32 +64,33 @@ FUNC at 12
 . SUSPEND COUNT 0
 . NAME "fun"
 . PARAMS
-. . VAR (000001A4AAEF2608) (mode = VAR, assigned = false) "a"
-. . VAR (000001A4AAEF26B0) (mode = VAR, assigned = false) "b"
+. . VAR (00000280F83B0598) (mode = VAR, assigned = false) "a"
+. . VAR (00000280F83B0640) (mode = VAR, assigned = false) "b"
 . DECLS
-. . VARIABLE (000001A4AAEF2608) (mode = VAR, assigned = false) "a"
-. . VARIABLE (000001A4AAEF26B0) (mode = VAR, assigned = false) "b"
-. . VARIABLE (000001A4AAEF2758) (mode = VAR, assigned = false) "c"
+. . VARIABLE (00000280F83B0598) (mode = VAR, assigned = false) "a"
+. . VARIABLE (00000280F83B0640) (mode = VAR, assigned = false) "b"
+. . VARIABLE (00000280F83B06E8) (mode = VAR, assigned = false) "c"
 . BLOCK NOCOMPLETIONS at -1
 . . EXPRESSION STATEMENT at 34
 . . . INIT at 34
-. . . . VAR PROXY local[0] (000001A4AAEF2758) (mode = VAR, assigned = false) "c"
+. . . . VAR PROXY local[0] (00000280F83B06E8) (mode = VAR, assigned = false) "c"
 . . . . LITERAL 3
 . RETURN at 42
-. . ADD at 49
-. . . VAR PROXY parameter[0] (000001A4AAEF2608) (mode = VAR, assigned = false) "a"
-. . . VAR PROXY parameter[1] (000001A4AAEF26B0) (mode = VAR, assigned = false) "b"
-. . . VAR PROXY local[0] (000001A4AAEF2758) (mode = VAR, assigned = false) "c"
+. . SUB at 55
+. . . ADD at 51
+. . . . VAR PROXY parameter[0] (00000280F83B0598) (mode = VAR, assigned = false) "a"
+. . . . VAR PROXY parameter[1] (00000280F83B0640) (mode = VAR, assigned = false) "b"
+. . . VAR PROXY local[0] (00000280F83B06E8) (mode = VAR, assigned = false) "c"
 ```
 
 <figure>
-    <img src="./illustrations/AST/png04.PNG" width="650" alt="C Compile" align="center">
+    <img src="./illustrations/AST/png04-1.PNG" width="650" alt="C Compile" align="center">
     <figcaption><em>AST 树状结构</em></figcaption>
     <br><br>
 </figure>
 
 <figure>
-    <img src="./illustrations/AST/AST01.gif" width="650" alt="C Compile" align="center">
+    <img src="./illustrations/AST/AST01-1.gif" width="650" alt="C Compile" align="center">
     <figcaption><em>AST 树状结构</em></figcaption>
     <br><br>
 </figure>
