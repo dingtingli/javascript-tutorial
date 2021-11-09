@@ -164,7 +164,7 @@ FUNC at 12
 . . . VAR PROXY local[0] (00000280F83B06E8) (mode = VAR, assigned = false) "c"
 ```
 
-相应 AST 的 “DECLS” 中，函数变量声明里会多一个变量 `c`，这个变量在 “PARAMS” 中并不存在。
+相应 AST 的 “DECLS” 中，函数变量声明里会多一个变量 `c`，这个变量在 “PARAMS” 中并不存在。//
 
 <figure>
     <img src="./illustrations/AST/png04-1.PNG" width="650" alt="C Compile" align="center">
@@ -267,4 +267,38 @@ FUNC at 12
 
 ### 资源和参考
 
-[1]
+[1] [An Introduction to Speculative Optimization in V8](https://benediktmeurer.de/2017/12/13/an-introduction-to-speculative-optimization-in-v8/)
+
+[2] [JavaScript Engine Functionality](https://www.pimonk.com/post/javascript-engine-functionality)
+
+[3] [Writing a C Compiler, Part 1](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
+
+[4] [Sneak peek into Javascript V8 Engine](https://medium.com/@poojasharma_93670/sneak-peek-into-javascript-v8-engine-d2bb2eb2bdb2)
+
+[5] [Ignition: Jump-starting an Interpreter for V8](https://docs.google.com/presentation/d/1HgDDXBYqCJNasBKBDf9szap1j4q4wnSHhOYpaNy5mHU/edit#slide=id.g17d335048f_1_2796)
+
+[6] [深入V8引擎之代码执行机制](https://juejin.cn/post/6876421049618006023)
+
+[7] [翻译：V8引擎如何一步一步地运行](https://github.com/dingtingli/javascript-translation/blob/main/doc/V8%E5%BC%95%E6%93%8E%E5%A6%82%E4%BD%95%E4%B8%80%E6%AD%A5%E4%B8%80%E6%AD%A5%E5%9C%B0%E8%BF%90%E8%A1%8C.md)
+
+[8] [V8 是怎么跑起来的](https://juejin.cn/post/7021714551330570247#heading-4)
+
+[9] [Parsing JavaScript - better lazy than eager?](https://www.youtube.com/watch?v=Fg7niTmNNLg)
+
+[10] [手把手带你入门 AST 抽象语法树](https://juejin.cn/post/6844904035271573511)
+
+关于 d8:
+
+[1] [How to build V8 on Windows and not go mad](https://medium.com/angular-in-depth/how-to-build-v8-on-windows-and-not-go-mad-6347c69aacd4)
+
+[2] [Installing V8 on a Mac](https://gist.github.com/kevincennis/0cd2138c78a07412ef21)
+
+[3] [Building V8 with GN](https://v8.dev/docs/build-gn)
+
+[4] [jsvu is the JavaScript (engine) Version Updater](https://github.com/GoogleChromeLabs/jsvu)
+
+[5] [使用 jsvu 快速调试 v8](https://juejin.cn/post/6951284209319149581)
+
+[6] [d8 安装手记](https://www.wemlion.com/post/install-d8/)
+
+[7] [v8-debug 与 v8 编译流程](https://juejin.cn/post/6979152223485820965)
