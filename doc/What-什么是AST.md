@@ -10,7 +10,11 @@
 
 其中有很多细节并没有详细介绍，这篇文章我们就先来看一下编译阶段的 Abstract Syntax Tree: 抽象语法树。
 
-![PNG01](./illustrations/AST/png01.PNG)
+<figure>
+    <img src="./illustrations/AST/png01.PNG" width="650" alt="C Compile" align="center">
+    <figcaption><em>编译阶段</em></figcaption>
+    <br><br>
+</figure>
 
 从上图中可以看到，在到达 AST 之前，源代码会被扫描器（Scanner）转换成 Token 数组，这就是编译原理中常说的分词。
 
@@ -45,7 +49,7 @@ function add(a, b) {
 |Punctuator|;|
 |Punctuator|}|
 
-注：[esprima](https://esprima.org/demo/parse.html#) 网站提供了网页版的分词工具。
+注：[ESPrima](https://esprima.org/demo/parse.html#) 网站提供了网页版的分词工具。
 
 Token 数组只是将一段代码分解成了一个个最小的可识别单元。这就像是我们往翻译软件中输入了一段英文，这段英文中的每个单词都会被提取出来，保存到 Token 数组中。
 
